@@ -27,15 +27,20 @@ body {
     align-items: center;
     text-justify: auto;
     gap:10px;
-    line-height: 0.10;
+    line-height: 0.20;
+    transform: translateY(-10);
+
 }
 strong{
 
     display: flex;
     padding: 1px 1px;
     font-size: 1.5rem;
+    transform: translateY(5px);
 }
-
+.header p{
+  transform: translateY(15px);
+}
 .header img{
     width: 50px;
     height: 50px;
